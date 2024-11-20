@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: ALMLab
+        default: GitHubLab
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -26,8 +26,8 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://orgb5208e67.crm.dynamics.com'
-  CLIENT_ID: '<APPID>'
-  TENANT_ID: '<TENANT ID>'
+  CLIENT_ID: '8c0773df-3f9a-4b08-8a72-97758ace95c9'
+  TENANT_ID: '04ef2a99-4772-4503-b70e-6eece16fff93'
 permissions:
   contents: write
 jobs:
